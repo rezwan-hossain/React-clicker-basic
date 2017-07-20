@@ -1,0 +1,47 @@
+body {
+  background: #f06060;
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper{
+    margin: 20% ;
+}
+
+.text {
+  
+  margin: 10px 45%;
+  padding: 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 5% 42%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 500;
+  outline: none;
+  position: relative;
+}
+
+.btn:hover {
+}
+.btn:active {
+  background-color: #ab3c3c;
+  box-shadow: 0 6px #ab3c3c;
+  transform: translateY(4px);
+}
+.btn-2 {
+  background: #cb4e4e;
+  color: #fff;
+  box-shadow: 0 6px #ab3c3c;
+  transition: none;
+  border-radius: 0 0 5px 5px;
+}
